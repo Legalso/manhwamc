@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ManhwaMC</string>
+
+    <!-- Menu -->
+    <string name="add_mission">Adicionar Missão</string>
+    <string name="complete">Concluir</string>
+    <string name="save">Salvar</string>
+    <string name="close">Fechar</string>
+
+    <!-- Formulário -->
+    <string name="mission_title">Título da Missão</string>
+    <string name="mission_xp">XP da Missão</string>
+
+    <!-- Mensagens -->
+    <string name="mission_completed">Missão concluída! +%d XP</string>
+    <string name="level_up">Nível %d alcançado!</string>
+    <string name="error_empty_title">O título não pode estar vazio</string>
+    <string name="error_invalid_xp">XP inválido</string>
+
+    <!-- Widget -->
+    <string name="widget_title">Missão Atual</string>
+    <string name="widget_no_mission">Nenhuma missão ativa</string>
+</resources>

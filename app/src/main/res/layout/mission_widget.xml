@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textAppearance="@style/TextAppearance.ManhwaMC.Body1"
+        android:textColor="@color/text_primary"/>
+
+    <TextView
+        android:id="@+id/missionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/widgetTitle"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.ManhwaMC.Headline2"
+        android:textColor="@color/text_primary"/>
+
+    <TextView
+        android:id="@+id/missionXp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/missionTitle"
+        android:layout_marginTop="4dp"
+        android:textAppearance="@style/TextAppearance.ManhwaMC.Body2"
+        android:textColor="@color/text_secondary"/>
+
+    <Button
+        android:id="@+id/completeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/complete"/>
+
+</RelativeLayout>
